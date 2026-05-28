@@ -10,12 +10,12 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sudoku2.controller.SudokuGuideController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniproyecto2sudokuedadlepr.controller.SudokuGuideController">
     <children>
         <Pane prefHeight="176.0" prefWidth="600.0" style="-fx-background-color: #4BA2AC;">
             <children>
                 <Button layoutX="14.0" layoutY="15.0" mnemonicParsing="false" onAction="#returnToMenu" prefHeight="36.0" prefWidth="105.0" styleClass="my-button5" />
-                <ImageView fitHeight="54.0" fitWidth="277.0" layoutX="167.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                <ImageView fitHeight="115" fitWidth="115" layoutX="100.0" layoutY="-22" pickOnBounds="true" preserveRatio="true">
                     <image>
                         <Image url="@../css/howToPlay.png" />
                     </image>
