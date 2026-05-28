@@ -1,5 +1,5 @@
-package com.example.sudoku2.view;
-import com.example.sudoku2.controller.SudokuGuideController;
+package com.example.miniproyecto2sudokuedadlepr.view;
+import com.example.miniproyecto2sudokuedadlepr.controller.SudokuGuideController;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -27,7 +27,7 @@ public class SudokuGuideStage extends Stage {
      * @throws IOException if the FXML file cannot be loaded.
      */
     private SudokuGuideStage() throws IOException {
-        FXMLLoader Loader = new FXMLLoader(getClass().getResource("/com/example/sudoku2/fxml/sudoku-help-view.fxml"));
+        FXMLLoader Loader = new FXMLLoader(getClass().getResource("/com/example/miniproyecto2sudokuedadlepr/fxml/sudoku-help-view.fxml"));
         Parent root = Loader.load();
         controller = Loader.getController();
 
@@ -35,7 +35,7 @@ public class SudokuGuideStage extends Stage {
         setScene(scene);
         setTitle("Help");
         setResizable(false);
-        getIcons().add(new Image(String.valueOf(getClass().getResource("/com/example/sudoku2/images/logo.png"))));
+        getIcons().add(new Image(String.valueOf(getClass().getResource("/com/example/miniproyecto2sudokuedadlepr/images/logo.png"))));
         show();
     }
 

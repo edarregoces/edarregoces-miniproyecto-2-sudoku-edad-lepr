@@ -1,6 +1,6 @@
-package com.example.sudoku2;
+package com.example.miniproyecto2sudokuedadlepr;
 
-import com.example.sudoku2.view.SudokuStartStage;
+import com.example.miniproyecto2sudokuedadlepr.view.SudokuStartStage;
 import javafx.application.Application;
 import javafx.stage.Stage;
 

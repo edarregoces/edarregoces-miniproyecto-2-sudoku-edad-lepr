@@ -1,6 +1,6 @@
-package com.example.sudoku2.view;
+package com.example.miniproyecto2sudokuedadlepr.view;
 
-import com.example.sudoku2.controller.SudokuPlayController;
+import com.example.miniproyecto2sudokuedadlepr.controller.SudokuPlayController;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -24,7 +24,7 @@ public class SudokuPlayStage extends Stage {
      */
     private SudokuPlayStage() throws IOException {
         FXMLLoader loader = new FXMLLoader(
-                getClass().getResource("/com/example/sudoku2/fxml/sudoku-game-view.fxml")
+                getClass().getResource("/com/example/miniproyecto2sudokuedadlepr/fxml/sudoku-game-view.fxml")
         );
         Parent root = loader.load();
         controller = loader.getController();
@@ -34,7 +34,7 @@ public class SudokuPlayStage extends Stage {
         setTitle("Sudoku");
         setResizable(false);
         getIcons().add(
-                new Image(String.valueOf(getClass().getResource("/com/example/sudoku2/images/logo.png")))
+                new Image(String.valueOf(getClass().getResource("/com/example/miniproyecto2sudokuedadlepr/images/logo.png")))
         );
         show();
     }

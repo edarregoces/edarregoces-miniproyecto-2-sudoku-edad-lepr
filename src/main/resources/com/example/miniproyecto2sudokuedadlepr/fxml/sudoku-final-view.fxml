@@ -6,13 +6,13 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: F0EEC9;" styleClass="background" stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sudoku2.controller.SudokuEndController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: F0EEC9;" styleClass="background" stylesheets="@../css/styles.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.miniproyecto2sudokuedadlepr.controller.SudokuEndController">
     <children>
         <Pane prefHeight="319.0" prefWidth="600.0">
             <children>
                 <ImageView fitHeight="235.0" fitWidth="451.0" layoutX="74.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@../css/gameComplete.png" />
+                        <Image url="@../css/gameComplete.gif" />
                     </image>
                 </ImageView>
             </children>

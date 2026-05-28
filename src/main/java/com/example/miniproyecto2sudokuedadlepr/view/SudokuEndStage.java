@@ -1,6 +1,6 @@
-package com.example.sudoku2.view;
+package com.example.miniproyecto2sudokuedadlepr.view;
 
-import com.example.sudoku2.controller.SudokuEndController;
+import com.example.miniproyecto2sudokuedadlepr.controller.SudokuEndController;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -27,7 +27,7 @@ public class SudokuEndStage extends Stage {
      * @throws IOException if the FXML file cannot be loaded.
      */
     private SudokuEndStage() throws IOException {
-        FXMLLoader Loader = new FXMLLoader(getClass().getResource("/com/example/sudoku2/fxml/sudoku-final-view.fxml"));
+        FXMLLoader Loader = new FXMLLoader(getClass().getResource("/com/example/miniproyecto2sudokuedadlepr/fxml/sudoku-final-view.fxml"));
         Parent root = Loader.load();
         controller = Loader.getController();
 
@@ -35,7 +35,7 @@ public class SudokuEndStage extends Stage {
         setScene(scene);
         setTitle("Game Complete");
         setResizable(false);
-        getIcons().add(new Image(String.valueOf(getClass().getResource("/com/example/sudoku2/images/logo.png"))));
+        getIcons().add(new Image(String.valueOf(getClass().getResource("/com/example/miniproyecto2sudokuedadlepr/images/logo.png"))));
         show();
     }
 

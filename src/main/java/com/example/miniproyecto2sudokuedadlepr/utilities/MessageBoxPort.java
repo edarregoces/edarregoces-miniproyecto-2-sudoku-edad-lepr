@@ -1,4 +1,4 @@
-package com.example.sudoku2.utils;
+package com.example.miniproyecto2sudokuedadlepr.utilities;
 
 import javafx.scene.control.Alert;
 
